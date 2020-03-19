@@ -17,10 +17,10 @@ def greet_crew (crew)
   crew.each {|crew_member| "Hello #{crew_member}."}
 end
 
-binding.pry
-
 def engage
   date = generate_star_date
   state_log(date)
   greet_crew(crew)
 end
+
+fix_using_tests/the_final_frontier.rb
