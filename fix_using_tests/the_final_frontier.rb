@@ -22,5 +22,3 @@ def engage(a, b, c)
   state_log(date)
   greet_crew(crew)
 end
-
-binding.pry
