@@ -17,8 +17,6 @@ def greet_crew (crew)
   crew.collect {|crew_member| "Hello #{crew_member}."}
 end
 
-binding.pry
-
 def engage
   date = generate_star_date
   state_log(date)
